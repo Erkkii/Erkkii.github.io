@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NEVER BACK DOWN NEVER WHAT</title>
+<title>90% of gamblers quit just before theyre about to win big</title>
 <style>
   body {
     margin: 0;
@@ -13,16 +13,44 @@
     min-height: 100vh;
     background-color: #f0f0f0;
   }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+  }
+  .side-image {
+    flex: 1;
+    padding: 20px;
+  }
+  .side-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .video-container {
+    flex: 3;
+  }
   video {
     max-width: 100%;
     height: auto;
+    display: block;
   }
 </style>
 </head>
 <body>
-<video autoplay muted loop>
-  <source src="movie.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="container">
+  <div class="side-image">
+    <img src="gamblers.png" alt="Image 1">
+  </div>
+  <div class="video-container">
+    <video autoplay controls>
+      <source src="movie.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="side-image">
+    <img src="gamblers.png" alt="Image 2">
+  </div>
+</div>
 </body>
 </html>
