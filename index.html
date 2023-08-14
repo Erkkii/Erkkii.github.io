@@ -1,36 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEVER BACK DOWN NEVER WHAT?</title>
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f0f0;
-        }
-
-        #video-container {
-            max-width: 800px;
-        }
-
-        video {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEVER BACK DOWN NEVER WHAT?</title>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
 </head>
 <body>
-    <div id="video-container">
-        <video autoplay muted loop>
-            <source src="movie.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+<video autoplay controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </body>
 </html>
